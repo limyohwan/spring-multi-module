@@ -1,4 +1,4 @@
-package com.yohwan.storage.db.main
+package com.yohwan.multimodule.storage.db.main
 
 import jakarta.persistence.Entity
 

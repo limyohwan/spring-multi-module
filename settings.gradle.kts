@@ -2,6 +2,7 @@ rootProject.name = "multi-module"
 
 include(
     "hello-spring-api",
+    "domain",
     "support:logging",
     "storage:db-main"
 )

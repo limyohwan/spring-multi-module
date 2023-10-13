@@ -1,4 +1,4 @@
-package com.yohwan.storage.db.main.config
+package com.yohwan.multimodule.storage.db.main.config
 
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource

@@ -1,4 +1,4 @@
-package com.yohwan.storage.db.main.config
+package com.yohwan.multimodule.storage.db.main.config
 
 import org.springframework.boot.autoconfigure.domain.EntityScan
 import org.springframework.context.annotation.Configuration
@@ -7,6 +7,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement
 
 @Configuration
 @EnableTransactionManagement
-@EntityScan(basePackages = ["com.yohwan.storage.db.main"])
-@EnableJpaRepositories(basePackages = ["com.yohwan.storage.db.main"])
+@EntityScan(basePackages = ["com.yohwan.multimodule.storage.db.main"])
+@EnableJpaRepositories(basePackages = ["com.yohwan.multimodule.storage.db.main"])
 internal class MainJpaConfig
