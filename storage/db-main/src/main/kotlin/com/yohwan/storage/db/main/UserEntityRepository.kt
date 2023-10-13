@@ -1,7 +1,7 @@
-package com.yohwan.multimodule.storage.db.main
+package com.yohwan.storage.db.main
 
-import com.yohwan.domain.multimodule.user.User
-import com.yohwan.domain.multimodule.user.UserRepository
+import com.yohwan.domain.user.User
+import com.yohwan.domain.user.UserRepository
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Repository
 

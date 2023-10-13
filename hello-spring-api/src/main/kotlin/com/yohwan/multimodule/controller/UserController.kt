@@ -1,6 +1,6 @@
 package com.yohwan.multimodule.controller
 
-import com.yohwan.domain.multimodule.user.UserService
+import com.yohwan.domain.user.UserService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping

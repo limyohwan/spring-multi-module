@@ -1,4 +1,4 @@
-package com.yohwan.multimodule.storage.db.main
+package com.yohwan.storage.db.main
 
 import org.springframework.data.jpa.repository.JpaRepository
 

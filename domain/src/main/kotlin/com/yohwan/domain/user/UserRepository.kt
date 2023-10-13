@@ -1,4 +1,4 @@
-package com.yohwan.domain.multimodule.user
+package com.yohwan.domain.user
 
 interface UserRepository {
     fun add(name: String): Long
