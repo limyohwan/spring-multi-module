@@ -9,3 +9,5 @@
 - db-main의 jpa 의존성을 api, 클래스들을 internal이 아니게 만들면 다른 모듈에서 jpa관련 엔티티, 레포지토리등을 직접적으로 사용할 수 있음
 - https://github.com/limyohwan/spring-boot-kotlin-template 참조
 - 아키텍처는 계속해서 진화해나가며 상황에 맞추어 설계해 나가는걸 추천함
+- 멀티모듈을 공부하다보니 gradle의 사용법 공부가 필수적이라고 느꼇다
+- api, implementation, runtimeOnly, compileOnly 등으로 격리성을 강조하고 있으니 공부하자
